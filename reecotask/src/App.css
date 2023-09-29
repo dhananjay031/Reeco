@@ -1,3 +1,179 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    /* height: auto; */
+}
+
+.App{
+    background-color: #d0d0d0;
+    /* height: 700px; */
+}
+
+.topSection{
+ background-color: green;
+ /* width: 100%; */
+ display: flex;
+ justify-content: space-around;
+ padding: 15px;
+ color: #FFFFFF;
+ height: 40px;
+}
+
+/* .left ,.right{
+    display: flex;
+    border: 1px solid red;
+    justify-content: space-around;
+} */
+
+
+.left,.right{
+   display: flex;
+   gap: 30px;
+   border: 1px solid red;
+   width: 50%;
+   font-weight: 400;
+   /* justify-content: space-around; */
+}
+
+.right{
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.high{
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.normal{
+    padding-top: 9px;
+}
+
+.body{
+    height:100vh;
+}
+
+.headerContainer{
+    height: 90px;
+    background-color: #FFFFFF;
+}
+
+.orderId{
+    color: black;
+}
+
+.order{
+    display: flex;
+    padding: 10px;
+}
+
+.footer{
+    padding: 10px;
+}
+
+.buttonContainer{
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.buttonContainer , .footer{
+    display: flex;
+}
+
+.orderNumberContainer{
+    width: 50%;
+}
+
+.backButton{
+    color: green;
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 6px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.approveButton{
+    border: 1px solid green;
+    border-radius: 20px;
+    padding: 6px 20px 6px 6px;
+     cursor: pointer;
+     color: #FFFFFF;
+     background-color: green;
+}
+
+.productHeader{
+    /* height: 100px; */
+    margin: 30px 70px 0px 70px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.desc{
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+}
+
+.title{
+    color: grey;
+}
+
+.subHeading{
+    color: black;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.boundary{
+    width: 2px;
+    height: 100px;
+    margin-top: 8px;
+    background-color: rgb(214, 206, 206);
+}
+
+.footerBody{
+    margin: 20px 70px 0px 70px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    height: 500px;
+}
+
+.search{
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* .searchContainer{
+    padding: 20px;
+} */
+
+.serachIcon{
+    font-size: 20px;
+}
+.head{
+    display: flex;
+    padding: 20px;
+}
+.addItem{
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+    width: 600px;
+}
+
+.button{
+    border: 1px solid seagreen;
+    color: seagreen;
+}
+
+
+.printIcon{
+    margin-top: 8px;
+    font-size: 23px;
+    cursor: pointer;
+    color: seagreen;
+}
